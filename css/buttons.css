@@ -1,0 +1,94 @@
+.btn {
+  border: 1px solid #454545;
+  color: #454545;
+  border-radius: 3px;
+  line-height: 25px;
+  min-width: 100px;
+  font-size: 12px;
+  background: #fff;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: linear background 0.2s, linear border-color 0.2s;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  border-color: #2d966c;
+  color: #2d966c;
+}
+
+.btn.action {
+  background: #37ba86;
+  border-color: #37ba86;
+  color: #fff;
+}
+
+.action:hover {
+  background: #2d966c;
+  border-color: #2d966c;
+}
+
+.btn.dark {
+  background: #454545;
+  border-color: #454545;
+  color: #fff;
+}
+
+.dark:hover {
+  background: #000;
+  border-color: #000;
+}
+
+.btn.warning {
+  background: #9b1b1b;
+  border-color: #9b1b1b;
+  color: #fff;
+}
+
+.warning:hover {
+  background: #771414;
+  border-color: #771414;
+}
+
+.btn.attention {
+  background: #ddc71f;
+  border-color: #ddc71f;j
+  color: #454545;
+}
+
+.attention:hover {
+  background: #af9e18;
+  border-color: #af9e18;
+  color: #fff;
+}
+
+.btn.special {
+  background: #177caf;
+  border-color: #177caf;
+  color: #fff;
+}
+
+.special:hover {
+  background: #146087;
+  border-color: #146087;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid #b5b5b5;
+  background: transparent;
+  color: white;
+  width: 80%;
+  padding: 5px;
+  font-size: 1.1em;
+  box-sizing: border-box;
+  transition: linear border-color 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: rgb(0,159,242);
+}

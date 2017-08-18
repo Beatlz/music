@@ -1,0 +1,102 @@
+/* Visit www.tramonte.mx/grid for use cases and examples */
+
+/* ---------- CONTENTS ---------- */
+
+/*
+
+1) MAIN RULES
+2) RELATIVE WIDTHS
+3) MARGINS
+4) MEDIA QUERIES
+
+*/
+
+/* --------- MAIN RULES --------- */
+
+body {
+  margin: 0;
+  overflow: auto;
+  font-family: 'Helvetica Neue', 'Arial', 'Roboto', sans-serif;
+  transition: linear background 0.3s;
+}
+
+.row {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  overflow: auto;
+}
+
+.main {
+  display: block;
+  overflow: auto;
+  width: 94vw;
+  margin: 0 auto;
+  transition: ease width 0.5s;
+}
+
+.whole, .half, .quarter, .tripleQuarter, .third, .doubleThird {
+  display: block;
+  margin: 5px 2.5%;
+  min-height: 10px;
+  float: left;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: ease width 0.2s;
+}
+
+/* ------ RELATIVE WIDTHS ------ */
+
+.whole         { width: 95% }
+.half          { width: 45% }
+.third         { width: 28.3% }
+.doubleThird   { width: 61.7% }
+.quarter       { width: 20% }
+.tripleQuarter { width: 70% }
+
+/* ---------- MARGINS ---------- */
+
+.halfMargin          { margin-left: 52.5% }
+.thirdMargin         { margin-left: 35.83333% }
+.doubleThirdMargin   { margin-left: 69.16666% }
+.quarterMargin       { margin-left: 27.5% }
+.tripleQuarterMargin { margin-left: 77.5% }
+
+/* ------- MEDIA QUERIES ------- */
+
+@media (max-width: 1280px) {
+  /*  FIRST BREAKPOINT RULES */
+}
+
+@media (max-width: 960px) {
+  
+  /* SECOND BREAKPOINT RULES */
+
+  .row {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .whole, .half, .third, .doubleThird, .quarter, .tripleQuarter {
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 5%;
+    margin-right: 0;
+    float: none;
+  }
+  
+  header {
+    display: none;
+  }
+  
+}
+
+@media (max-width: 780px) {
+
+  /* ONE-COLUMN BREAKPOINT; MOBILE GOES HERE */
+  
+  .main {
+    width: 90%;
+    margin-bottom: 100px;
+  }
+  
+}
