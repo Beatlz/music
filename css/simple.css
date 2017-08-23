@@ -1,0 +1,15 @@
+.centered      { text-align: center; }
+.clickable     { cursor: pointer; }
+.block         { display: block; }
+.box           { box-sizing: border-box; }
+.overflow__A   { overflow: auto; }
+.overflow__V   { overflow: visible; }
+.overflow__H   { overflow: hidden; }
+.white__bg     { background: #fff; }
+.black__bg     { background: #000; }
+.delete        { transition: linear color 0.2s }
+.delete:hover  { color: red; opacity: 0.5 }
+
+/* MARGINS */
+
+.margin1       { margin-top: 25px; }

@@ -13,10 +13,12 @@
 
 /* --------- MAIN RULES --------- */
 
+@import url('https://fonts.googleapis.com/css?family=Lobster|Work+Sans');
+
 body {
   margin: 0;
   overflow: auto;
-  font-family: 'Helvetica Neue', 'Arial', 'Roboto', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   transition: linear background 0.3s;
 }
 
